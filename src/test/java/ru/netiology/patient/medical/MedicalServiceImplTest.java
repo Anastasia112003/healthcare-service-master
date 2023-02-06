@@ -1,3 +1,5 @@
+package ru.netiology.patient.medical;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
@@ -14,7 +16,7 @@ import ru.netology.patient.service.medical.MedicalServiceImpl;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public class MedicalServiceImplTests {
+public class MedicalServiceImplTest {
     @Test
     void checkBloodPressure() {
         PatientInfoFileRepository fileRepository = Mockito.mock(PatientInfoFileRepository.class);
